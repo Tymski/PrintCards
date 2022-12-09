@@ -43,6 +43,7 @@ function createDOMElements(imageURL) {
         <div class="card">
             <img src="${imageURL}" class="card-picture" />
             <img src="corners.png" class="card-corners" />
+            <img src="Overpowered_Corner.png" class="card-corners" />
         </div>
     `;
     document.body.appendChild(htmlToElement(div));
